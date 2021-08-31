@@ -1,1 +1,40 @@
-
+:{
+  "lang": "en-US",
+  "name": "Magic 8 Ball",
+  "id": "us.kary.magic8ball",
+  "short_name": "Magic *",
+  "categories": ["utilities"],
+  "description":
+    "",
+  "icons": [
+    {
+      "src": "56.png",
+      "type": "image/png",
+      "sizes": "56x56"
+    },
+    {
+      "src": "112.png",
+      "type": "image/png",
+      "sizes": "112x112"
+    }
+  ],
+  "start_url": "/index.html",
+  "theme_color": "#000000",
+  "orientation": "natural",
+  "b2g_features": {
+    "version": "1.0",
+    "core": true,
+    "subtitle": "Tells you what to do!",
+    "permissions": {
+    },
+    "origin": "us.kary.magic8ball",
+    "developer": {
+      "name": "Pouya Kary",
+      "url": "https://kary.us"
+    },
+    "chrome": {
+      "statusbar": "overlap"
+    },
+    "focus_color": "#ffffff"
+  }
+}
